@@ -1,0 +1,90 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+.header {
+    background-color: hsla(314, 38%, 80%, 1);
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 6px 22px 1px rgba(0, 0, 0, 0.49);
+    -webkit-box-shadow: 2px 6px 22px 1px rgba(0, 0, 0, 0.49);
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.about {
+    width: 20%;
+    float: left;
+    background-color: hsla(148, 54%, 60%, 1);
+    padding: 20px;
+}
+
+.about a {
+    text-decoration: none;
+    color: white;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    float: right;
+    overflow: auto;
+    padding: 20px;
+    background-color: hsla(180, 26%, 22%, 1);
+}
+
+.boton {
+    overflow: auto;
+    width: 500px;
+    height: 500px;
+    background-color: #03800b;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 500px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 14;
+    text-transform: uppercase;
+    float: left;
+    text-decoration: none;
+}
+
+.boton:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
+}
+
+.boton a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 5px 5px 0;
+}
+
+.presentation {
+    padding-top: 20px;
+    padding-left: 40%;
+    padding-right: 20px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+@media only screen and (max-widht: 800px) {
+    .header,
+    .about,
+    .container {
+        width: 100%;
+    }
+}
